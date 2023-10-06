@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     const nameCell = row.insertCell(0);
                     const coordinatesCell = row.insertCell(1);
                     const typeCell = row.insertCell(2);
-                    nameCell.innerText = feature.properties.name;
+                    nameCell.innerText = feature.properties.Point;
                     coordinatesCell.innerText = JSON.stringify(feature.geometry.coordinates);
                     typeCell.innerText = feature.geometry.type;
                     
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     const nameCell = row.insertCell(0);
                     const coordinatesCell = row.insertCell(1);
                     const typeCell = row.insertCell(2);
-                    nameCell.innerText = feature.properties.name;
+                    nameCell.innerText = feature.properties.Alamat;
                     coordinatesCell.innerText = JSON.stringify(feature.geometry.coordinates);
                     typeCell.innerText = feature.geometry.type;
                     
@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     const nameCell = row.insertCell(0);
                     const coordinatesCell = row.insertCell(1);
                     const typeCell = row.insertCell(2);
-                    nameCell.innerText = feature.properties.name;
+                    nameCell.innerText = feature.properties.Jalan;
                     coordinatesCell.innerText = JSON.stringify(feature.geometry.coordinates);
                     typeCell.innerText = feature.geometry.type;
                     
